@@ -5,7 +5,7 @@ def find_item_by_name_in_collection(name, collection)
   i = 0
   while collection.length > i
     if collection[i][name] 
-      return collection[i][name]
+      return collection[i]
     end
     i += 1
   end
